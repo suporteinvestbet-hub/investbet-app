@@ -48,9 +48,7 @@ const Dashboard = ({ user, onLogout, monthlyProfit, accumulatedProfit }) => {
     { id: 'depositos', label: 'Depósitos', icon: CreditCard, section: 'CARTEIRA' },
     { id: 'negociacoes', label: 'Negociações', icon: TrendingUp, section: 'CARTEIRA' },
     { id: 'reaplicacao', label: 'Reaplicação', icon: Repeat, section: 'CARTEIRA' },
-    { id: 'saques', label: 'Saques', icon: Banknote, section: 'CARTEIRA' },
-    { id: 'sala-de-sinais', label: 'Sala de Sinais', icon: TrendingUp, section: 'SINAIS' },
-    { id: 'sala-gratuita', label: 'Sala Gratuita', icon: PieChart, section: 'SINAIS' }
+    { id: 'saques', label: 'Saques', icon: Banknote, section: 'CARTEIRA' }
   ]
 
   const renderContent = () => {
@@ -202,79 +200,6 @@ const Dashboard = ({ user, onLogout, monthlyProfit, accumulatedProfit }) => {
             </Card>
           </div>
         )
-      case 'sala-de-sinais':
-        return (
-          <div className="space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle>Sala de Sinais VIP</CardTitle>
-                <CardDescription>Acesso exclusivo aos melhores sinais do mercado!</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700">
-                  Bem-vindo à sua Sala de Sinais VIP! Aqui, você tem acesso privilegiado a análises aprofundadas, 
-                  sinais de alta precisão e estratégias exclusivas que maximizam seus retornos.
-                </p>
-                <p className="text-md text-gray-600">
-                  Nossa equipe de especialistas trabalha incansavelmente para identificar as melhores oportunidades 
-                  do mercado, garantindo que você esteja sempre um passo à frente. Com a Sala VIP, você não apenas 
-                  recebe sinais, mas também compreende a lógica por trás de cada operação, elevando seu conhecimento 
-                  e sua capacidade de decisão.
-                </p>
-                <p className="text-md text-gray-600">
-                  Aproveite os benefícios de ser um membro VIP: suporte prioritário, conteúdos educacionais exclusivos 
-                  e a comunidade mais engajada de investidores. Seu sucesso é a nossa prioridade!
-                </p>
-                <Button 
-                  className="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white"
-                  onClick={() => window.open("https://t.me/suagrupovip", "_blank")}
-                >
-                  Acessar Sala VIP (Telegram)
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-        )
-      case 'sala-gratuita':
-        return (
-          <div className="space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle>Sala de Sinais Gratuita</CardTitle>
-                <CardDescription>Acompanhe nossos sinais e veja os resultados!</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700">
-                  Quer ter um gostinho do sucesso? Na nossa Sala de Sinais Gratuita, você pode acompanhar 
-                  alguns de nossos sinais e verificar a assertividade que nos tornou referência no mercado.
-                </p>
-                <p className="text-md text-gray-600">
-                  É a oportunidade perfeita para entender a dinâmica e o potencial dos nossos sinais, 
-                  mas lembre-se: o acesso completo e os resultados mais expressivos estão reservados para 
-                  os membros da nossa <span className="font-bold text-blue-600">Sala VIP</span>.
-                </p>
-                <p className="text-md text-gray-600">
-                  Na Sala VIP, você tem acesso exclusivo a estratégias avançadas, 
-                  suporte personalizado e uma gama muito maior de sinais que maximizam seus lucros. 
-                  A Sala Gratuita é um aperitivo, a Sala VIP é o banquete!
-                </p>
-                <Button 
-                  className="w-full md:w-auto bg-green-600 hover:bg-green-700 text-white"
-                  onClick={() => window.open("https://t.me/investbetoficial/1", "_blank")}
-                >
-                  Entrar na Sala Gratuita (Telegram)
-                </Button>
-                <Button 
-                  variant="outline" 
-                  className="w-full md:w-auto ml-0 md:ml-4 mt-2 md:mt-0 border-blue-600 text-blue-600 hover:bg-blue-50"
-                  onClick={() => setActiveSection("negociacoes")}
-                >
-                  Conhecer a Sala VIP
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-        )
       default:
         return (
           <Card>
@@ -349,36 +274,6 @@ const Dashboard = ({ user, onLogout, monthlyProfit, accumulatedProfit }) => {
           
           <div className="space-y-1 px-2">
             {menuItems.filter(item => item.section === 'CARTEIRA').map((item) => {
-              const Icon = item.icon
-              return (
-                <button
-                  key={item.id}
-                  onClick={() => {
-                    setActiveSection(item.id)
-                    setSidebarOpen(false)
-                  }}
-                  className={`w-full flex items-center px-4 py-3 text-sm font-medium rounded-lg transition-colors ${
-                    activeSection === item.id
-                      ? 'bg-blue-600 text-white'
-                      : 'text-gray-300 hover:bg-gray-800 hover:text-white'
-                  }`}
-                >
-                  <Icon className="mr-3 h-5 w-5" />
-                  {item.label}
-                </button>
-              )
-            })}
-          </div>
-
-          {/* SINAIS Section */}
-          <div className="px-4 mb-4 mt-8">
-            <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-              SINAIS
-            </p>
-          </div>
-          
-          <div className="space-y-1 px-2">
-            {menuItems.filter(item => item.section === 'SINAIS').map((item) => {
               const Icon = item.icon
               return (
                 <button
