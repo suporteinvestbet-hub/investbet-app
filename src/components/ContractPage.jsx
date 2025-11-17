@@ -82,7 +82,32 @@ const ContractPage = ({ onAccept }) => {
                 </section>
 
                 <section>
-                  <h3 className="font-semibold text-lg mb-2">4. SERVIÇOS PRESTADOS</h3>
+                  <h3 className="font-semibold text-lg mb-2">4. GARANTIA DE DEVOLUÇÃO PROPORCIONAL DO CAPITAL (SEGURANÇA INVESTBET)</h3>
+                  <p className="text-gray-600 leading-relaxed italic">
+                    Cláusula criada especificamente para gerar confiança e segurança ao cliente.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    <strong>4.1.</strong> Embora a CONTRATADA não garanta lucros, adota internamente uma Política de Segurança de Capital, com objetivo de proteger o CONTRATANTE em cenários adversos.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    <strong>4.2.</strong> Caso o CONTRATANTE realize um aporte e, durante os meses seguintes, receba rendimentos mensais correspondentes a parte do valor aportado, esses valores serão considerados amortizações naturais do capital.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    <em>Exemplo didático:</em> Se o CONTRATANTE aportar R$ 10.000,00 e receber rendimentos mensais que totalizem R$ 5.000,00 ao longo de 5 meses, significa que 50% do capital já foi retornado ao CONTRATANTE.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    <strong>4.3.</strong> Em cenário extremo e improvável de encerramento imprevisto das operações, falha operacional grave ou impossibilidade de continuidade do serviço, a CONTRATADA se compromete a devolver ao CONTRATANTE o valor proporcional restante do capital ainda não amortizado. No exemplo acima: R$ 5.000,00.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    <strong>4.4.</strong> Essa política garante que, mesmo no pior cenário, o CONTRATANTE não sairá prejudicado, preservando sua confiança e segurança.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    <strong>4.5.</strong> O objetivo da CONTRATADA é sempre operar com estabilidade, transparência e lucratividade, buscando evitar qualquer situação de risco elevado, sendo esta política acionada somente em casos extremos.
+                  </p>
+                </section>
+
+                <section>
+                  <h3 className="font-semibold text-lg mb-2">5. SERVIÇOS PRESTADOS</h3>
                   <p className="text-gray-600 leading-relaxed">
                     A CONTRATADA realizará:
                     <ul>
@@ -95,40 +120,15 @@ const ContractPage = ({ onAccept }) => {
                 </section>
 
                 <section>
-                  <h3 className="font-semibold text-lg mb-2">5. RISCOS E AUSÊNCIA DE GARANTIA</h3>
+                  <h3 className="font-semibold text-lg mb-2">6. RISCOS E AUSÊNCIA DE GARANTIA</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>5.1.</strong> Apostas esportivas envolvem riscos significativos, podendo gerar perdas parciais ou totais dos valores utilizados.
+                    <strong>6.1.</strong> Apostas esportivas envolvem riscos significativos, podendo gerar perdas parciais ou totais dos valores utilizados.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>5.2.</strong> Resultados anteriores não garantem resultados futuros.
+                    <strong>6.2.</strong> Resultados anteriores não garantem resultados futuros.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>5.3.</strong> O CONTRATANTE declara ciência de que participa por sua livre escolha e sob sua responsabilidade.
-                  </p>
-                </section>
-
-                <section>
-                  <h3 className="font-semibold text-lg mb-2">6. GARANTIA DE DEVOLUÇÃO PROPORCIONAL DO CAPITAL (SEGURANÇA INVESTBET)</h3>
-                  <p className="text-gray-600 leading-relaxed italic">
-                    Cláusula criada especificamente para gerar confiança e segurança ao cliente.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>6.1.</strong> Embora a CONTRATADA não garanta lucros, adota internamente uma Política de Segurança de Capital, com objetivo de proteger o CONTRATANTE em cenários adversos.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>6.2.</strong> Caso o CONTRATANTE realize um aporte e, durante os meses seguintes, receba rendimentos mensais correspondentes a parte do valor aportado, esses valores serão considerados amortizações naturais do capital.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <em>Exemplo didático:</em> Se o CONTRATANTE aportar R$ 10.000,00 e receber rendimentos mensais que totalizem R$ 5.000,00 ao longo de 5 meses, significa que 50% do capital já foi retornado ao CONTRATANTE.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>6.3.</strong> Em cenário extremo e improvável de encerramento imprevisto das operações, falha operacional grave ou impossibilidade de continuidade do serviço, a CONTRATADA se compromete a devolver ao CONTRATANTE o valor proporcional restante do capital ainda não amortizado. No exemplo acima: R$ 5.000,00.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>6.4.</strong> Essa política garante que, mesmo no pior cenário, o CONTRATANTE não sairá prejudicado, preservando sua confiança e segurança.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>6.5.</strong> O objetivo da CONTRATADA é sempre operar com estabilidade, transparência e lucratividade, buscando evitar qualquer situação de risco elevado, sendo esta política acionada somente em casos extremos.
+                    <strong>6.3.</strong> O CONTRATANTE declara ciência de que participa por sua livre escolha e sob sua responsabilidade.
                   </p>
                 </section>
 
@@ -152,7 +152,7 @@ const ContractPage = ({ onAccept }) => {
                       <li>Empregar seus melhores esforços, sem garantir resultados;</li>
                       <li>Utilizar os valores exclusivamente em apostas esportivas;</li>
                       <li>Manter sigilo de dados e cumprir a legislação aplicável;</li>
-                      <li>Respeitar integralmente a Política de Devolução Proporcional descrita na Cláusula 6.</li>
+                      <li>Respeitar integralmente a Política de Devolução Proporcional descrita na Cláusula 4.</li>
                     </ul>
                   </p>
                 </section>
@@ -186,7 +186,7 @@ const ContractPage = ({ onAccept }) => {
                     <strong>11.2.</strong> Ambas as partes podem rescindir mediante aviso prévio de 30 dias, mantendo obrigações pendentes.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>11.3.</strong> Em caso de rescisão, o CONTRATANTE tem direito à devolução proporcional do capital conforme a Cláusula 6.
+                    <strong>11.3.</strong> Em caso de rescisão, o CONTRATANTE tem direito à devolução proporcional do capital conforme a Cláusula 4.
                   </p>
                 </section>
 
