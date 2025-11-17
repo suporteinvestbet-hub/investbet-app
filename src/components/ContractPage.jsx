@@ -46,166 +46,171 @@ const ContractPage = ({ onAccept }) => {
               <div className="space-y-4 text-sm">
                 <section>
                   <h3 className="font-semibold text-lg mb-2">1. PARTES CONTRATANTES</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    **CONTRATADA:** InvestBet Capital, empresa atuante exclusivamente no segmento de apostas esportivas, por meio de traders profissionais, sem prestação de serviços financeiros, aconselhamento de investimentos ou qualquer atividade sujeita à regulação da CVM ou do Banco Central do Brasil.
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    <strong>CONTRATADA:</strong> InvestBet Capital, empresa atuante exclusivamente no segmento de apostas esportivas por meio de traders profissionais, não prestando serviços financeiros, de investimento ou quaisquer atividades reguladas pela CVM ou Banco Central.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    **CONTRATANTE:** Usuário que aceita integralmente os termos e condições deste contrato.
+                    <strong>CONTRATANTE:</strong> Usuário que aceita integralmente os termos deste contrato.
                   </p>
                 </section>
 
                 <section>
                   <h3 className="font-semibold text-lg mb-2">2. OBJETO DO CONTRATO</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Este contrato tem por objeto a prestação de serviços de execução de operações em apostas esportivas, com caráter de entretenimento, mediante utilização dos valores transferidos pelo CONTRATANTE exclusivamente para essa finalidade.
+                    Este instrumento tem por objeto a prestação de serviços de execução de operações em apostas esportivas, com caráter de entretenimento, mediante utilização dos valores enviados pelo CONTRATANTE exclusivamente para essa finalidade.
                   </p>
                 </section>
 
                 <section>
-                  <h3 className="font-semibold text-lg mb-2">3. NATUREZA JURÍDICA – ISENÇÃO REGULATÓRIA</h3>
+                  <h3 className="font-semibold text-lg mb-2">3. POLÍTICA DE SEGURANÇA E DEVOLUÇÃO PROPORCIONAL DO CAPITAL</h3>
+                  <p className="text-gray-600 leading-relaxed italic mb-2">
+                    📌 Cláusula antecipada estrategicamente para gerar máxima confiança ao cliente.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    3.1. Embora a CONTRATADA não garanta lucros, a empresa adota internamente uma Política de Segurança de Capital, destinada a proteger o CONTRATANTE em cenários extremos e altamente improváveis.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    3.2. Os rendimentos mensais eventualmente recebidos pelo CONTRATANTE serão considerados como amortização natural do capital inicial.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    <strong>Exemplo:</strong><br />
+                    Se o CONTRATANTE aportar R$ 10.000,00, e ao longo de alguns meses receber R$ 5.000,00 em rendimentos, entende-se que 50% do capital inicial já foi retornado.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    3.3. Caso ocorra qualquer evento excepcional que impossibilite a continuidade das operações — como falha grave, problema operacional ou encerramento imprevisto — a CONTRATADA se compromete a devolver ao CONTRATANTE o valor proporcional do capital ainda não amortizado.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    <strong>Seguindo o exemplo anterior:</strong><br />
+                    O CONTRATANTE receberia R$ 5.000,00 restantes.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    3.4. Essa política garante que, mesmo no pior cenário, o CONTRATANTE não sairá no prejuízo total, preservando seu capital proporcionalmente.
+                  </p>
                   <p className="text-gray-600 leading-relaxed">
+                    3.5. A CONTRATADA reforça que o objetivo central é operar com segurança, responsabilidade e eficiência, buscando evitar qualquer situação de risco que demande ativação desta política.
+                  </p>
+                </section>
+
+                <section>
+                  <h3 className="font-semibold text-lg mb-2">4. NATUREZA JURÍDICA E ISENÇÃO REGULATÓRIA</h3>
+                  <p className="text-gray-600 leading-relaxed mb-2">
                     A CONTRATADA:
-                    <ul>
-                      <li>não presta consultoria financeira, gestão de investimentos, administração de carteiras ou captação pública;</li>
-                      <li>não garante rentabilidade;</li>
-                      <li>atua exclusivamente com apostas esportivas, classificadas legalmente como entretenimento.</li>
-                    </ul>
+                  </p>
+                  <ul className="list-disc list-inside text-gray-600 leading-relaxed ml-4">
+                    <li>não presta consultoria financeira;</li>
+                    <li>não administra investimentos;</li>
+                    <li>não garante rentabilidade;</li>
+                    <li>não realiza atividades sujeitas à CVM ou Banco Central.</li>
+                  </ul>
+                  <p className="text-gray-600 leading-relaxed mt-2">
+                    As operações têm natureza exclusivamente recreativa no âmbito das apostas esportivas.
                   </p>
                 </section>
 
                 <section>
-                  <h3 className="font-semibold text-lg mb-2">4. SERVIÇOS PRESTADOS</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    A CONTRATADA realizará:
-                    <ul>
-                      <li>Análises estatísticas e técnicas de eventos esportivos;</li>
-                      <li>Definição e execução de estratégias de apostas;</li>
-                      <li>Operação dos valores enviados pelo CONTRATANTE em plataformas legítimas de apostas;</li>
-                      <li>Envio de informações gerais de desempenho, quando aplicável.</li>
-                    </ul>
+                  <h3 className="font-semibold text-lg mb-2">5. SERVIÇOS PRESTADOS</h3>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    A CONTRATADA executará:
                   </p>
+                  <ul className="list-disc list-inside text-gray-600 leading-relaxed ml-4">
+                    <li>análises estatísticas de eventos esportivos;</li>
+                    <li>definição e aplicação de estratégias de apostas;</li>
+                    <li>execução das operações com os valores enviados pelo CONTRATANTE;</li>
+                    <li>fornecimento de informações gerais de desempenho quando aplicável.</li>
+                  </ul>
                 </section>
 
                 <section>
-                  <h3 className="font-semibold text-lg mb-2">5. RISCOS E AUSÊNCIA DE GARANTIA</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    5.1. Apostas esportivas envolvem riscos significativos, podendo gerar perdas parciais ou totais dos valores utilizados.
+                  <h3 className="font-semibold text-lg mb-2">6. RISCOS E AUSÊNCIA DE GARANTIA</h3>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    6.1. A participação em apostas esportivas envolve riscos significativos.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    6.2. Resultados passados não asseguram resultados futuros.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    5.2. Resultados anteriores não garantem resultados futuros.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    5.3. O CONTRATANTE declara ciência de que participa por sua livre escolha e sob sua responsabilidade.
-                  </p>
-                </section>
-
-                <section>
-                  <h3 className="font-semibold text-lg mb-2">6. GARANTIA DE DEVOLUÇÃO PROPORCIONAL DO CAPITAL (SEGURANÇA INVESTBET)</h3>
-                  <p className="text-gray-600 leading-relaxed italic">
-                    Cláusula criada especificamente para gerar confiança e segurança ao cliente.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    6.1. Embora a CONTRATADA não garanta lucros, adota internamente uma Política de Segurança de Capital, com objetivo de proteger o CONTRATANTE em cenários adversos.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    6.2. Caso o CONTRATANTE realize um aporte e, durante os meses seguintes, receba rendimentos mensais correspondentes a parte do valor aportado, esses valores serão considerados amortizações naturais do capital.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    *Exemplo didático:* Se o CONTRATANTE aportar R$ 10.000,00 e receber rendimentos mensais que totalizem R$ 5.000,00 ao longo de 5 meses, significa que 50% do capital já foi retornado ao CONTRATANTE.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    6.3. Em cenário extremo e improvável de encerramento imprevisto das operações, falha operacional grave ou impossibilidade de continuidade do serviço, a CONTRATADA se compromete a devolver ao CONTRATANTE o valor proporcional restante do capital ainda não amortizado. No exemplo acima: R$ 5.000,00.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    6.4. Essa política garante que, mesmo no pior cenário, o CONTRATANTE não sairá prejudicado, preservando sua confiança e segurança.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    6.5. O objetivo da CONTRATADA é sempre operar com estabilidade, transparência e lucratividade, buscando evitar qualquer situação de risco elevado, sendo esta política acionada somente em casos extremos.
+                    6.3. O CONTRATANTE declara ciência plena dos riscos e participa por sua livre escolha.
                   </p>
                 </section>
 
                 <section>
                   <h3 className="font-semibold text-lg mb-2">7. OBRIGAÇÕES DO CONTRATANTE</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    <ul>
-                      <li>Fornecer dados reais e atualizados;</li>
-                      <li>Avaliar sua condição financeira antes de aportar valores;</li>
-                      <li>Reconhecer que as operações envolvem risco;</li>
-                      <li>Utilizar os serviços em conformidade com este contrato.</li>
-                    </ul>
-                  </p>
+                  <ul className="list-disc list-inside text-gray-600 leading-relaxed ml-4">
+                    <li>Fornecer informação verdadeira;</li>
+                    <li>Avaliar sua capacidade financeira antes de enviar valores;</li>
+                    <li>Reconhecer os riscos envolvidos;</li>
+                    <li>Cumprir as disposições deste contrato.</li>
+                  </ul>
                 </section>
 
                 <section>
                   <h3 className="font-semibold text-lg mb-2">8. OBRIGAÇÕES DA CONTRATADA</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    <ul>
-                      <li>Operar com diligência, responsabilidade e profissionalismo;</li>
-                      <li>Empregar seus melhores esforços, sem garantir resultados;</li>
-                      <li>Utilizar os valores exclusivamente em apostas esportivas;</li>
-                      <li>Manter sigilo de dados e cumprir a legislação aplicável;</li>
-                      <li>Respeitar integralmente a Política de Devolução Proporcional descrita na Cláusula 6.</li>
-                    </ul>
-                  </p>
+                  <ul className="list-disc list-inside text-gray-600 leading-relaxed ml-4">
+                    <li>Empregar melhores esforços profissionais;</li>
+                    <li>Utilizar os valores exclusivamente para apostas esportivas;</li>
+                    <li>Proteger os dados do CONTRATANTE;</li>
+                    <li>Cumprir integralmente a Política de Segurança e Devolução (Cláusula 3).</li>
+                  </ul>
                 </section>
 
                 <section>
                   <h3 className="font-semibold text-lg mb-2">9. POLÍTICA DE VALORES, SALDO E SAQUES</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Valores transferidos pelo CONTRATANTE serão utilizados exclusivamente nas operações esportivas. Solicitações de saque seguirão os procedimentos internos e prazos operacionais da CONTRATADA, podendo haver ajustes para atender às melhores práticas de segurança financeira. Custos ou taxas serão informados antecipadamente.
+                    Os procedimentos de saques seguirão as normas internas da CONTRATADA, respeitando prazos operacionais e eventuais ajustes necessários. Custos e taxas serão informados previamente.
                   </p>
                 </section>
 
                 <section>
-                  <h3 className="font-semibold text-lg mb-2">10. PRIVACIDADE E PROTEÇÃO DE DADOS</h3>
+                  <h3 className="font-semibold text-lg mb-2">10. PRIVACIDADE – LGPD</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    A CONTRATADA trata dados pessoais conforme a Lei Geral de Proteção de Dados – LGPD (Lei 13.709/2018), mantendo políticas internas de sigilo e segurança.
+                    A CONTRATADA garante proteção total dos dados pessoais conforme a Lei Geral de Proteção de Dados (LGPD).
                   </p>
                 </section>
 
                 <section>
                   <h3 className="font-semibold text-lg mb-2">11. VIGÊNCIA E RESCISÃO</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    11.1. Vigência se inicia na data de aceitação do CONTRATANTE.
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    Contrato entra em vigor na aceitação pelo CONTRATANTE.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    Qualquer parte pode rescindir com 30 dias de aviso prévio.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    11.2. Ambas as partes podem rescindir mediante aviso prévio de 30 dias, mantendo obrigações pendentes.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    11.3. Em caso de rescisão, o CONTRATANTE tem direito à devolução proporcional do capital conforme a Cláusula 6.
+                    Na rescisão, aplica-se a Cláusula 3 para devolução proporcional do capital.
                   </p>
                 </section>
 
                 <section>
                   <h3 className="font-semibold text-lg mb-2">12. ALTERAÇÕES DOS TERMOS</h3>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    A CONTRATADA pode atualizar este contrato mediante aviso.
+                  </p>
                   <p className="text-gray-600 leading-relaxed">
-                    A CONTRATADA poderá atualizar este contrato mediante aviso prévio ao CONTRATANTE. A continuidade do uso implica aceitação das alterações.
+                    A continuidade do uso implica aceitação automática.
                   </p>
                 </section>
 
                 <section>
                   <h3 className="font-semibold text-lg mb-2">13. FORO</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Fica eleito o foro da comarca da sede da CONTRATADA.
+                    Fica eleito o foro da comarca da sede da CONTRATADA para quaisquer disputas.
                   </p>
                 </section>
 
                 <section>
                   <h3 className="font-semibold text-lg mb-2">14. DISPOSIÇÕES GERAIS</h3>
+                  <p className="text-gray-600 leading-relaxed mb-2">
+                    O contrato substitui versões anteriores.
+                  </p>
                   <p className="text-gray-600 leading-relaxed">
-                    Este contrato substitui documentos anteriores e representa o acordo integral entre as partes. Em caso de nulidade parcial, as demais disposições permanecem válidas.
+                    Cláusulas inválidas não prejudicam o restante.
                   </p>
                 </section>
 
                 <div className="border-t pt-4 mt-6">
-                  <h3 className="font-semibold text-lg mb-2 text-red-500">AVISO LEGAL IMPORTANTE</h3>
+                  <h3 className="font-semibold text-lg mb-2 text-red-500">AVISO LEGAL FINAL</h3>
                   <p className="text-xs text-gray-500">
-                    A InvestBet Capital atua exclusivamente com apostas esportivas, classificadas como entretenimento. Não presta consultoria financeira, não garante lucros e não está sujeita à regulação da CVM ou do Banco Central. Participação envolve riscos.
-                  </p>
-                  <p className="text-xs text-gray-500 mt-2">
-                    Última atualização: Novembro de 2025<br />
-                    InvestBet Capital<br />
-                    CNPJ: [A SER PREENCHIDO PELO CLIENTE]
+                    A InvestBet Capital não garante lucros, não presta serviços financeiros, não está sob regulamentação da CVM ou Banco Central. A participação envolve riscos.
                   </p>
                 </div>
               </div>
