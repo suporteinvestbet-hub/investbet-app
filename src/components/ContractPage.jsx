@@ -27,7 +27,7 @@ const ContractPage = ({ onAccept }) => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-4 shadow-lg">
             <FileText className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-white mb-2">Termos de Serviço</h1>
+          <h1 className="text-3xl font-bold text-white mb-2">Contrato de Prestação de Serviços</h1>
           <p className="text-slate-300">Leia e aceite os termos para continuar</p>
         </div>
 
@@ -35,7 +35,7 @@ const ContractPage = ({ onAccept }) => {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <AlertTriangle className="w-5 h-5 text-amber-500" />
-              Contrato de Prestação de Serviços
+              InvestBet Capital – Execução de Operações em Apostas Esportivas
             </CardTitle>
             <CardDescription>
               Por favor, leia atentamente todos os termos antes de prosseguir
@@ -44,21 +44,13 @@ const ContractPage = ({ onAccept }) => {
           <CardContent>
             <ScrollArea className="h-96 w-full border rounded-lg p-4 mb-6">
               <div className="space-y-4 text-sm">
-                
-                <section>
-                  <h3 className="font-semibold text-lg mb-2">CONTRATO DE PRESTAÇÃO DE SERVIÇOS</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>InvestBet Capital – Execução de Operações em Apostas Esportivas</strong>
-                  </p>
-                </section>
-
                 <section>
                   <h3 className="font-semibold text-lg mb-2">1. PARTES CONTRATANTES</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>CONTRATADA:</strong> InvestBet Capital, empresa atuante exclusivamente no segmento de apostas esportivas, por meio de traders profissionais, sem prestação de serviços financeiros, aconselhamento de investimentos ou qualquer atividade sujeita à regulação da CVM ou do Banco Central do Brasil.
+                    **CONTRATADA:** InvestBet Capital, empresa atuante exclusivamente no segmento de apostas esportivas, por meio de traders profissionais, sem prestação de serviços financeiros, aconselhamento de investimentos ou qualquer atividade sujeita à regulação da CVM ou do Banco Central do Brasil.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>CONTRATANTE:</strong> Usuário que aceita integralmente os termos e condições deste contrato.
+                    **CONTRATANTE:** Usuário que aceita integralmente os termos e condições deste contrato.
                   </p>
                 </section>
 
@@ -82,32 +74,7 @@ const ContractPage = ({ onAccept }) => {
                 </section>
 
                 <section>
-                  <h3 className="font-semibold text-lg mb-2">4. GARANTIA DE DEVOLUÇÃO PROPORCIONAL DO CAPITAL (SEGURANÇA INVESTBET)</h3>
-                  <p className="text-gray-600 leading-relaxed italic">
-                    Cláusula criada especificamente para gerar confiança e segurança ao cliente.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>4.1.</strong> Embora a CONTRATADA não garanta lucros, adota internamente uma Política de Segurança de Capital, com objetivo de proteger o CONTRATANTE em cenários adversos.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>4.2.</strong> Caso o CONTRATANTE realize um aporte e, durante os meses seguintes, receba rendimentos mensais correspondentes a parte do valor aportado, esses valores serão considerados amortizações naturais do capital.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <em>Exemplo didático:</em> Se o CONTRATANTE aportar R$ 10.000,00 e receber rendimentos mensais que totalizem R$ 5.000,00 ao longo de 5 meses, significa que 50% do capital já foi retornado ao CONTRATANTE.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>4.3.</strong> Em cenário extremo e improvável de encerramento imprevisto das operações, falha operacional grave ou impossibilidade de continuidade do serviço, a CONTRATADA se compromete a devolver ao CONTRATANTE o valor proporcional restante do capital ainda não amortizado. No exemplo acima: R$ 5.000,00.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>4.4.</strong> Essa política garante que, mesmo no pior cenário, o CONTRATANTE não sairá prejudicado, preservando sua confiança e segurança.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    <strong>4.5.</strong> O objetivo da CONTRATADA é sempre operar com estabilidade, transparência e lucratividade, buscando evitar qualquer situação de risco elevado, sendo esta política acionada somente em casos extremos.
-                  </p>
-                </section>
-
-                <section>
-                  <h3 className="font-semibold text-lg mb-2">5. SERVIÇOS PRESTADOS</h3>
+                  <h3 className="font-semibold text-lg mb-2">4. SERVIÇOS PRESTADOS</h3>
                   <p className="text-gray-600 leading-relaxed">
                     A CONTRATADA realizará:
                     <ul>
@@ -120,15 +87,40 @@ const ContractPage = ({ onAccept }) => {
                 </section>
 
                 <section>
-                  <h3 className="font-semibold text-lg mb-2">6. RISCOS E AUSÊNCIA DE GARANTIA</h3>
+                  <h3 className="font-semibold text-lg mb-2">5. RISCOS E AUSÊNCIA DE GARANTIA</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>6.1.</strong> Apostas esportivas envolvem riscos significativos, podendo gerar perdas parciais ou totais dos valores utilizados.
+                    5.1. Apostas esportivas envolvem riscos significativos, podendo gerar perdas parciais ou totais dos valores utilizados.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>6.2.</strong> Resultados anteriores não garantem resultados futuros.
+                    5.2. Resultados anteriores não garantem resultados futuros.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>6.3.</strong> O CONTRATANTE declara ciência de que participa por sua livre escolha e sob sua responsabilidade.
+                    5.3. O CONTRATANTE declara ciência de que participa por sua livre escolha e sob sua responsabilidade.
+                  </p>
+                </section>
+
+                <section>
+                  <h3 className="font-semibold text-lg mb-2">6. GARANTIA DE DEVOLUÇÃO PROPORCIONAL DO CAPITAL (SEGURANÇA INVESTBET)</h3>
+                  <p className="text-gray-600 leading-relaxed italic">
+                    Cláusula criada especificamente para gerar confiança e segurança ao cliente.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    6.1. Embora a CONTRATADA não garanta lucros, adota internamente uma Política de Segurança de Capital, com objetivo de proteger o CONTRATANTE em cenários adversos.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    6.2. Caso o CONTRATANTE realize um aporte e, durante os meses seguintes, receba rendimentos mensais correspondentes a parte do valor aportado, esses valores serão considerados amortizações naturais do capital.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    *Exemplo didático:* Se o CONTRATANTE aportar R$ 10.000,00 e receber rendimentos mensais que totalizem R$ 5.000,00 ao longo de 5 meses, significa que 50% do capital já foi retornado ao CONTRATANTE.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    6.3. Em cenário extremo e improvável de encerramento imprevisto das operações, falha operacional grave ou impossibilidade de continuidade do serviço, a CONTRATADA se compromete a devolver ao CONTRATANTE o valor proporcional restante do capital ainda não amortizado. No exemplo acima: R$ 5.000,00.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    6.4. Essa política garante que, mesmo no pior cenário, o CONTRATANTE não sairá prejudicado, preservando sua confiança e segurança.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    6.5. O objetivo da CONTRATADA é sempre operar com estabilidade, transparência e lucratividade, buscando evitar qualquer situação de risco elevado, sendo esta política acionada somente em casos extremos.
                   </p>
                 </section>
 
@@ -152,7 +144,7 @@ const ContractPage = ({ onAccept }) => {
                       <li>Empregar seus melhores esforços, sem garantir resultados;</li>
                       <li>Utilizar os valores exclusivamente em apostas esportivas;</li>
                       <li>Manter sigilo de dados e cumprir a legislação aplicável;</li>
-                      <li>Respeitar integralmente a Política de Devolução Proporcional descrita na Cláusula 4.</li>
+                      <li>Respeitar integralmente a Política de Devolução Proporcional descrita na Cláusula 6.</li>
                     </ul>
                   </p>
                 </section>
@@ -160,13 +152,7 @@ const ContractPage = ({ onAccept }) => {
                 <section>
                   <h3 className="font-semibold text-lg mb-2">9. POLÍTICA DE VALORES, SALDO E SAQUES</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Valores transferidos pelo CONTRATANTE serão utilizados exclusivamente nas operações esportivas.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    Solicitações de saque seguirão os procedimentos internos e prazos operacionais da CONTRATADA, podendo haver ajustes para atender às melhores práticas de segurança financeira.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    Custos ou taxas serão informados antecipadamente.
+                    Valores transferidos pelo CONTRATANTE serão utilizados exclusivamente nas operações esportivas. Solicitações de saque seguirão os procedimentos internos e prazos operacionais da CONTRATADA, podendo haver ajustes para atender às melhores práticas de segurança financeira. Custos ou taxas serão informados antecipadamente.
                   </p>
                 </section>
 
@@ -180,13 +166,13 @@ const ContractPage = ({ onAccept }) => {
                 <section>
                   <h3 className="font-semibold text-lg mb-2">11. VIGÊNCIA E RESCISÃO</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>11.1.</strong> Vigência se inicia na data de aceitação do CONTRATANTE.
+                    11.1. Vigência se inicia na data de aceitação do CONTRATANTE.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>11.2.</strong> Ambas as partes podem rescindir mediante aviso prévio de 30 dias, mantendo obrigações pendentes.
+                    11.2. Ambas as partes podem rescindir mediante aviso prévio de 30 dias, mantendo obrigações pendentes.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>11.3.</strong> Em caso de rescisão, o CONTRATANTE tem direito à devolução proporcional do capital conforme a Cláusula 4.
+                    11.3. Em caso de rescisão, o CONTRATANTE tem direito à devolução proporcional do capital conforme a Cláusula 6.
                   </p>
                 </section>
 
@@ -207,10 +193,7 @@ const ContractPage = ({ onAccept }) => {
                 <section>
                   <h3 className="font-semibold text-lg mb-2">14. DISPOSIÇÕES GERAIS</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Este contrato substitui documentos anteriores e representa o acordo integral entre as partes.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed">
-                    Em caso de nulidade parcial, as demais disposições permanecem válidas.
+                    Este contrato substitui documentos anteriores e representa o acordo integral entre as partes. Em caso de nulidade parcial, as demais disposições permanecem válidas.
                   </p>
                 </section>
 
@@ -218,6 +201,11 @@ const ContractPage = ({ onAccept }) => {
                   <h3 className="font-semibold text-lg mb-2 text-red-500">AVISO LEGAL IMPORTANTE</h3>
                   <p className="text-xs text-gray-500">
                     A InvestBet Capital atua exclusivamente com apostas esportivas, classificadas como entretenimento. Não presta consultoria financeira, não garante lucros e não está sujeita à regulação da CVM ou do Banco Central. Participação envolve riscos.
+                  </p>
+                  <p className="text-xs text-gray-500 mt-2">
+                    Última atualização: Novembro de 2025<br />
+                    InvestBet Capital<br />
+                    CNPJ: [A SER PREENCHIDO PELO CLIENTE]
                   </p>
                 </div>
               </div>
